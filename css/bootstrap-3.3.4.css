@@ -186,7 +186,10 @@ table {
 }
 td,
 th {
-  padding: 0;
+	padding: 0;
+	font-family: anonymous-pro;
+	font-style: normal;
+	font-weight: 400;
 }
 /*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
 @media print {
@@ -1086,11 +1089,11 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  line-height: 1.42857143;
-  color: #333;
-  background-color: #fff;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #333;
+	background-color: #fff;
 }
 input,
 button,
@@ -2244,7 +2247,10 @@ pre code {
   }
 }
 table {
-  background-color: transparent;
+	background-color: transparent;
+	font-family: anonymous-pro;
+	font-style: normal;
+	font-weight: 400;
 }
 caption {
   padding-top: 8px;
@@ -3013,9 +3019,10 @@ select[multiple].form-group-lg .form-control {
 .btn.focus,
 .btn:active.focus,
 .btn.active.focus {
-  outline: thin dotted;
-  outline: 5px auto -webkit-focus-ring-color;
-  outline-offset: -2px;
+	outline: thin dotted;
+	outline: 5px auto -webkit-focus-ring-color;
+	outline-offset: -2px;
+	text-align: right;
 }
 .btn:hover,
 .btn:focus,
@@ -4139,8 +4146,12 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   .container-fluid > .navbar-header,
   .container > .navbar-collapse,
   .container-fluid > .navbar-collapse {
-    margin-right: 0;
-    margin-left: 0;
+	margin-right: 0;
+	margin-left: 0;
+	font-family: anonymous-pro;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 36px;
   }
 }
 .navbar-static-top {
